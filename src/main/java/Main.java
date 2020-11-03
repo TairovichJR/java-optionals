@@ -66,11 +66,11 @@ public class Main {
 //        System.out.println(email);
 
         Person person = new Person("James", "KKL@yahoo.com");
-      if (person.getEmail().isPresent()){
-          String email = person.getEmail().get();
-          System.out.println(email.toLowerCase());
-      }else
-          System.out.println("email not provided");
+          if (person.getEmail().isPresent()){
+              String email = person.getEmail().get();
+              System.out.println(email.toLowerCase());
+          }else
+              System.out.println("email not provided");
 
     }
 }

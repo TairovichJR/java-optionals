@@ -15,6 +15,7 @@ public class Person {
         return name;
     }
 
+    //so we can work with nullable
     public Optional<String> getEmail() {
         return Optional.ofNullable(email);
     }
